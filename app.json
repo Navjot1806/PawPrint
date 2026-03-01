@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "PawPrint",
+    "slug": "PawPrint",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFB347"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nav-singh.PawPrint"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F5A623",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

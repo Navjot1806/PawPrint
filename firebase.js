@@ -15,13 +15,13 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 // 6. Enable Storage
 // ============================================================
 const firebaseConfig = {
-  apiKey: "AIzaSyAwmp5-Kz8QEkDi6gndGJzv8yfwRIuxrTo",
-  authDomain: "pawprint-ab367.firebaseapp.com",
-  projectId: "pawprint-ab367",
-  storageBucket: "pawprint-ab367.firebasestorage.app",
-  messagingSenderId: "1004475338306",
-  appId: "1:1004475338306:web:25852b8393997c7717a7db",
-  measurementId: "G-XC4CS0F9S2"
+  apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.EXPO_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.EXPO_PUBLIC_FIREBASE_APP_ID,
+  measurementId: process.env.EXPO_PUBLIC_FIREBASE_MEASUREMENT_ID,
 };
 
 const app = initializeApp(firebaseConfig);
